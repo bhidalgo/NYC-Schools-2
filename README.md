@@ -7,7 +7,7 @@ You can find my first go at it [here](https://github.com/bhidalgo/NYC-Schools).
 # Notes
 * This project was built and tested on an API 33 emulator. I did not have a physical device at my disposal at the time.
 * Enhancements and considerations are marked as TODOs. Use the Android Studio TODO view to see them.
-* Two big features that were omitted in the interest of time are: 1) data caching and 2) offline mode/Checking internet connectivity. Both features are implemented in the first NYC Schools demo.
+* Two big features that were omitted in the interest of time are: 1) data caching and 2) offline mode/Checking internet connectivity. Both features are implemented in the first NYC Schools demo. Nonetheless, the application runs under the assumption that the device has internet connectivity. The app must be restarted if internet connectivity is restored after the app is launched.
 * Other work that could have been done given more time: dependency injection using Hilt (although the project is small, and its best to not introduce complexity in such cases for a low ROI) and test coverage (unit, integration, instrumented, snapshot, etc.)
 
 # Building the app
