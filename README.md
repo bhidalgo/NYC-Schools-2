@@ -13,6 +13,10 @@ You can find my first go at it [here](https://github.com/bhidalgo/NYC-Schools).
 # Building the app
 `./gradlew assembleDebug`
 
+# Installing the app
+`./gradlew installDebug`
+
 # Running the app
+* If you ran the install command, and it pushed the application to the device successfully, then you just need to click the icon in your app drawer/home screen
 * Take the output from the build command, push it to a device/emulator. If on a real device you may need to enable your security settings to install a debug/unsigned build. 
 * Start an emulator or connect a real device with USB Debugging enabled and run the application in Android Studio.
